@@ -1,9 +1,11 @@
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import {OrbitControls} from "three/addons";
+
 const name = document.querySelector(".name")
 const newPrice = document.querySelector(".newPrice")
 const oldPrice = document.querySelector(".oldPrice")
+const cartButton = document.getElementById("cart")
 
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera( 40, window.innerWidth / window.innerHeight, 0.1, 1000 );
@@ -77,7 +79,6 @@ switch (actualModelId){
         oldPrice.innerHTML = "109.99$"
 
         break
-
 }
 
 loader.load("../assets/"+actualModelId+"/scene.gltf", function( gltf ) {
@@ -93,6 +94,10 @@ const controls = new OrbitControls( camera, renderer.domElement );
 controls.target.set(camera.position.x, camera.position.y)
 controls.minPolarAngle = Math.PI/2;
 controls.maxPolarAngle = Math.PI/2;
+
+cartButton.addEventListener('click',()=>{
+    console.log("ehfnejh")
+})
 
 function animate() {
     requestAnimationFrame( animate );
