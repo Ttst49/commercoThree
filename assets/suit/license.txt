@@ -1,6 +1,6 @@
 Model Information:
-* title:	Man Black Business Suit
-* source:	https://sketchfab.com/3d-models/man-black-business-suit-7a669a06fb954d459985ccaa98672177
+* title:	White Suit Set
+* source:	https://sketchfab.com/3d-models/white-suit-set-46111b5492f944bd862b8ca9ca4ba78b
 * author:	Style3D CG (https://sketchfab.com/Style3DMeta)
 
 Model License:
@@ -8,4 +8,4 @@ Model License:
 * requirements:	Author must be credited. Commercial use is allowed.
 
 If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
-This work is based on "Man Black Business Suit" (https://sketchfab.com/3d-models/man-black-business-suit-7a669a06fb954d459985ccaa98672177) by Style3D CG (https://sketchfab.com/Style3DMeta) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+This work is based on "White Suit Set" (https://sketchfab.com/3d-models/white-suit-set-46111b5492f944bd862b8ca9ca4ba78b) by Style3D CG (https://sketchfab.com/Style3DMeta) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

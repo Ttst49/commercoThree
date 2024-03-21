@@ -1,0 +1,11 @@
+Model Information:
+* title:	Dirt clothes
+* source:	https://sketchfab.com/3d-models/dirt-clothes-50b8084783d4471fbf15efa5f248ae1b
+* author:	Polutopia (https://sketchfab.com/Polutopia)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Dirt clothes" (https://sketchfab.com/3d-models/dirt-clothes-50b8084783d4471fbf15efa5f248ae1b) by Polutopia (https://sketchfab.com/Polutopia) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
