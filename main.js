@@ -13,6 +13,16 @@ const renderer = new THREE.WebGLRenderer();
 renderer.setSize( window.innerWidth, window.innerHeight );
 document.body.appendChild( renderer.domElement );
 
+const pL = new THREE.PointLight(0xffffff,2)
+const pL2 = new THREE.PointLight(0xffffff,2)
+const pL3 = new THREE.PointLight(0xffffff,2)
+const pL4 = new THREE.PointLight(0xffffff,2)
+pL.position.set(2, 1, 0.1)
+pL2.position.set(-2, 1, 0.1)
+pL3.position.set(0, 1, 2)
+pL4.position.set(0, 1, -2)
+scene.add(pL,pL2,pL3,pL4)
+
 const pointLight = new THREE.PointLight(0xffffff,1)
 
 
@@ -24,7 +34,6 @@ const ambientLight = new THREE.AmbientLight(0xffffff,1)
 scene.add(pointLight)
 
 scene.add(ambientLight)
-//scene.add(lightHelper)
 
 
 
@@ -52,20 +61,20 @@ switch (actualModelId){
         oldPrice.innerHTML = "109.99$"
         break
     case "3":
-        actualModelId = "suit"
+        actualModelId = "dress"
+        camera.position.y = 9
+        camera.position.z = -25
+        name.innerHTML = "White and red Dress, perfect for little occasions"
+        newPrice.innerHTML = "68.99$"
+        oldPrice.innerHTML = "74.99$"
+
         break
     case "4":
         camera.position.y = 1
         actualModelId = "short"
-        const pLS = new THREE.PointLight(0xffffff,2)
-        const pLS2 = new THREE.PointLight(0xffffff,2)
-        const pLS3 = new THREE.PointLight(0xffffff,2)
-        const pLS4 = new THREE.PointLight(0xffffff,2)
-        pLS.position.set(2, 1, 0.1)
-        pLS2.position.set(-2, 1, 0.1)
-        pLS3.position.set(0, 1, 2)
-        pLS4.position.set(0, 1, -2)
-        scene.add(pLS,pLS2,pLS3,pLS4)
+        name.innerHTML = "Gray SweatShirt with ecological purpose"
+        newPrice.innerHTML = "90$"
+        oldPrice.innerHTML = "109.99$"
 
         break
 
