@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    overflow-y: hidden;
+}
+
+.body{
+    overflow-y: hidden;
+    background-color: #252525;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 25vh;
+}
+
+.info{
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+
+.oldPrice{
+    text-decoration: line-through;
+}
+
+
+.cart:hover{
+    background-color: #EBEBEB;
+}
+
+
+.button{
+    padding: 20px;
+    margin: 10px;
+    background-color: #F4EDEA;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.button:hover{
+    background-color: #EADDD7;
+}
